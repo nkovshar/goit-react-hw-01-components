@@ -1,0 +1,36 @@
+.friendList {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.avatar {
+  height: 90px;
+  width: 90px;
+  border: none;
+  border-radius: 50%;
+}
+
+.statOnline,
+.statOffline {
+  width: 20px;
+  height: 20px;
+  margin-right: 30px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.statOffline {
+  background-color: red;
+}
